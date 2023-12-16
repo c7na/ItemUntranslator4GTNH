@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8.5-GTNH",
+  "package": "com.github.c7na.itemuntranslator.mixins",
+  "refmap": "mixins.itemuntranslator.refmap.json",
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "ItemStackMixin",
+    "LanguageRegistryMixin",
+    "StatCollectorMixin"
+  ],
+  "server": []
+}
